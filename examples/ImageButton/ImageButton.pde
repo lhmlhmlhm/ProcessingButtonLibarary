@@ -1,11 +1,9 @@
 import HaomingsGUI.library.*;
-
 PImage img;
 //
 //Step 1:
 GUIMaker.ImageButton maker;
 //
-
 int num = 10;
 boolean move = false;
 
@@ -66,12 +64,10 @@ void setup() {
     }
   }
   );
-
 }
 
 void draw() {
   background(num);
-  
   //you can decide which layar you want to put it, but you have to set maker.setAutoDraw(false);
   //maker.display();
 }
